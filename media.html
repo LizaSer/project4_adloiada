@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="/fancybox/jquery.fancybox-1.3.4.pack.js"
+    ></script>
+  </head>
+  <body class="m-0 p-0">
+    <div class="mainContainer container-fluid py-2 d-none d-md-block">
+      <div class="container">
+        <div class="row d-flex">
+          <div
+            class="d-flex flex-wrap align-content-center col-md-6 text-lg-left mb-2 mb-lg-0"
+          >
+            <div
+              class="FontText d-inline-block align-items-center justify-content-center"
+            >
+              <a class="text-white pr-3 mx-3" href>Main</a>
+              <span class="text-white">|</span>
+              <a class="text-white pr-3 mx-3" href>Help</a>
+              <span class="text-white">|</span>
+              <a class="text-white pr-3 mx-3" href>Support</a>
+            </div>
+          </div>
+          <div class="col-md-6 text-end text-lg-left mb-2 mb-lg-0">
+            <div class="d-inline-flex align-items-center">
+              <div class="container-fluid">
+                <button class="FontText btn btn-outline-light">
+                  Start Trivia
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav
+      class="FontText navbar navbar-expand-lg d-lg-block bg-white navbar-light shadow p-lg-0"
+    >
+      <div class="container-lg position-relative flex-wrap px-lg-3">
+        <a href="./index.html" class="navbar-brand d-block d-lg-none">
+          <img
+            class="LogoSize"
+            src="https://upload.wikimedia.org/wikipedia/he/thumb/3/3c/Holon_Logo_2012.svg/2560px-Holon_Logo_2012.svg.png"
+            alt=""
+          />
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div
+        class="collapse navbar-collapse justify-content-lg-center"
+        id="navbarTogglerDemo03"
+      >
+        <ul class="navbar-nav ms-3 mb-2 mb-lg-0 d-flex align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Suppliers
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.meyeden.co.il/"
+                  target="_blank"
+                  >Mey-eden</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.azrieli.com/?gclid=EAIaIQobChMImZ_98_3s_AIViflRCh02pAChEAAYASAAEgKCvPD_BwE"
+                  target="_blank"
+                  >Azrieli</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://app.burgeranch.co.il/?utm_term=burgeranch&utm_campaign=&utm_source=google&utm_medium=cpc&gclid=EAIaIQobChMI8bWKi_7s_AIVDN1RCh10aAo3EAAYASAAEgL9i_D_BwE"
+                  target="_blank"
+                  >Burgeranch</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://easy.co.il/page/10052918"
+                  target="_blank"
+                  >PizzaTarshish</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.beershop.co.il/beers/%D7%9C%D7%94-%D7%98%D7%A8%D7%90%D7%A4%D7%94/goldstar-2/"
+                  target="_blank"
+                  >Goldstar</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.spathotels.com/"
+                  target="_blank"
+                  >Spat-Holon</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.osem-nestle.co.il/"
+                  target="_blank"
+                  >Osem</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div class="navbar-brand mx-5 d-none d-lg-block">
+              <h1 class="m-0 display-4 text-primary">
+                <span class="text-secondary"
+                  ><img
+                    class="LogoSize"
+                    src="https://upload.wikimedia.org/wikipedia/he/thumb/3/3c/Holon_Logo_2012.svg/2560px-Holon_Logo_2012.svg.png"
+                    alt="Holon-City-logo"
+                /></span>
+              </h1>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="./FAQ.html" class="nav-item nav-link">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a href="./media.html" class="nav-item nav-link active">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-item nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="Media">
+      <section class="Mediaphoto">
+        <div class="container-fluid pt-5 pb-1">
+          <div class="container py-5">
+            <hr class="spanHrYellow" />
+            <div class="row justify-content-center">
+              <div class="col-lg-7">
+                <h1
+                  class="FontTitle section-title position-relative text-center my-3"
+                >
+                  Photos Gallery
+                </h1>
+              </div>
+            </div>
+            <div class="FontText row justify-content-center">
+              <div class="col-lg-4">
+                <h5 class="FontTitle font-weight-bold mb-3 text-center">
+                  You enjoy we take pictures
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <div class="img">
+            <img
+              src="https://www.ligdol.co.il/Upload/%D7%A4%D7%95%D7%A8%D7%99%D7%9D%20%D7%91%D7%A0%D7%AA%D7%A0%D7%99%D7%942.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/PikiWiki_Israel_12241_purim_festival_in_holon_2011.jpg/800px-PikiWiki_Israel_12241_purim_festival_in_holon_2011.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://www.tiuli.com/image/702b94ddfde94ce0ce1bc9ff0d40fd6f.jpg?&width=1080&height=0"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://www.kfar-saba.muni.il/uploads/n/1673951687.6825.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://img.mako.co.il/2021/01/28/476516pic_Orig_autoOrient_c.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://www.ynet.co.il/PicServer5/2019/03/21/9136026/91360000100994640360no.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://www.tiuli.com/image/fefbb2d65312b5002e7e885ccfde8e3f.jpg?&width=1200&height=630"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://raanana.mynet.co.il/picserver/mynet/crop_images/2020/01/29/ryoVklkzI/ryoVklkzI_0_0_1020_532_large.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://images.wcdn.co.il/f_auto,q_auto,w_1200,t_54/3/3/6/1/3361018-46.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://petahtikva.mynet.co.il/picserver/mynet/wcm_upload/2022/03/17/BykQlKlf9/WhatsApp_Image_2022_03_17_at_11_26_14.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://images1.ynet.co.il/PicServer5/2019/03/21/9135663/9135658984111009801533no.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://www.0404.co.il/wp-content/uploads/2019/03/IMG-20190322-WA0058.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://www.tiuli.com/image/edfaed1480982b49abb19906e483c96a.jpg?&width=1080&height=0"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/PikiWiki_Israel_12251_purim_festival_in_holon_2011.jpg/1200px-PikiWiki_Israel_12251_purim_festival_in_holon_2011.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://kinderland.co.il/tm-content/uploads/2019/02/%D7%A2%D7%93%D7%9C%D7%90%D7%99%D7%93%D7%A2-2019-%D7%91%D7%A6%D7%A4%D7%AA-2.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="popup-img">
+          <span>&times;</span>
+          <img
+            class="A"
+            src="https://www.ligdol.co.il/Upload/%D7%A4%D7%95%D7%A8%D7%99%D7%9D%20%D7%91%D7%A0%D7%AA%D7%A0%D7%99%D7%942.jpg"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <section class="Mediavideo">
+        <div class="container-fluid pt-5 pb-1">
+          <div class="container">
+            <hr class="spanHrYellow" />
+            <div class="row justify-content-center">
+              <div class="col-lg-7">
+                <h1
+                  class="FontTitle section-title position-relative text-center my-3"
+                >
+                  Video Gallery
+                </h1>
+              </div>
+            </div>
+            <div class="FontText row justify-content-center">
+              <div class="col-lg-4">
+                <h5 class="FontTitle font-weight-bold mb-3 text-center">
+                  We also have videos
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row m-5 pb-3 justify-content-lg-center">
+          <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+            <iframe
+              class="youtubeVideo"
+              src="https://www.youtube.com/embed/P28yyOX_teQ"
+              title="YouTube video"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="col-lg-3 mb-4 mb-lg-0">
+            <iframe
+              class="youtubeVideo"
+              src="https://www.youtube.com/embed/8fApXKrGe58"
+              title="YouTube video"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="col-lg-3 mb-4 mb-lg-0">
+            <iframe
+              class="youtubeVideo"
+              src="https://www.youtube.com/embed/3RBiofhL04c"
+              title="YouTube video"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="col-lg-3 mb-4 mb-lg-0">
+            <iframe
+              class="youtubeVideo"
+              src="https://www.youtube.com/embed/KeGKPryjccY"
+              title="YouTube video"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="mt-5">
+      <footer class="bg-light text-center text-white">
+        <div class="container p-4 pb-0">
+          <section class="mb-4">
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998"
+              href="#!"
+              role="button"
+              ><i class="bi bi-facebook"></i
+            ></a>
+
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee"
+              href="#!"
+              role="button"
+              ><i class="bi bi-twitter"></i
+            ></a>
+
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39"
+              href="#!"
+              role="button"
+              ><i class="bi bi-youtube"></i
+            ></a>
+
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac"
+              href="#!"
+              role="button"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </section>
+        </div>
+
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2023 Copyright:
+          <a class="text-white" href="">Liza-Projects.com</a>
+        </div>
+      </footer>
+    </footer>
+    <script>
+      document.querySelectorAll(".gallery img").forEach((image) => {
+        image.onclick = () => {
+          document.querySelector(".popup-img").style.display = "block";
+          document.querySelector(".popup-img img").src =
+            image.getAttribute("src");
+        };
+      });
+
+      document.querySelector(".popup-img span").onclick = () => {
+        document.querySelector(".popup-img").style.display = "none";
+      };
+    </script>
+  </body>
+</html>

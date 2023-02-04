@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="m-0 p-0">
+    <div class="mainContainer container-fluid py-2 d-none d-md-block">
+      <div class="container">
+        <div class="row d-flex">
+          <div
+            class="d-flex flex-wrap align-content-center col-md-6 text-lg-left mb-2 mb-lg-0"
+          >
+            <div
+              class="FontText d-inline-block align-items-center justify-content-center"
+            >
+              <a class="text-white pr-3 mx-3" href>Main</a>
+              <span class="text-white">|</span>
+              <a class="text-white pr-3 mx-3" href>Help</a>
+              <span class="text-white">|</span>
+              <a class="text-white pr-3 mx-3" href>Support</a>
+            </div>
+          </div>
+          <div class="col-md-6 text-end text-lg-left mb-2 mb-lg-0">
+            <div class="d-inline-flex align-items-center">
+              <div class="container-fluid">
+                <button class="FontText btn btn-outline-light">
+                  Start Trivia
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav
+      class="FontText navbar navbar-expand-lg d-lg-block bg-white navbar-light shadow p-lg-0"
+    >
+      <div class="container-lg position-relative flex-wrap px-lg-3">
+        <a href="./index.html" class="navbar-brand d-block d-lg-none">
+          <img
+            class="LogoSize"
+            src="https://upload.wikimedia.org/wikipedia/he/thumb/3/3c/Holon_Logo_2012.svg/2560px-Holon_Logo_2012.svg.png"
+            alt=""
+          />
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div
+        class="collapse navbar-collapse justify-content-lg-center"
+        id="navbarTogglerDemo03"
+      >
+        <ul class="navbar-nav ms-3 mb-2 mb-lg-0 d-flex align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Suppliers
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.meyeden.co.il/"
+                  target="_blank"
+                  >Mey-eden</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.azrieli.com/?gclid=EAIaIQobChMImZ_98_3s_AIViflRCh02pAChEAAYASAAEgKCvPD_BwE"
+                  target="_blank"
+                  >Azrieli</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://app.burgeranch.co.il/?utm_term=burgeranch&utm_campaign=&utm_source=google&utm_medium=cpc&gclid=EAIaIQobChMI8bWKi_7s_AIVDN1RCh10aAo3EAAYASAAEgL9i_D_BwE"
+                  target="_blank"
+                  >Burgeranch</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://easy.co.il/page/10052918"
+                  target="_blank"
+                  >PizzaTarshish</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.beershop.co.il/beers/%D7%9C%D7%94-%D7%98%D7%A8%D7%90%D7%A4%D7%94/goldstar-2/"
+                  target="_blank"
+                  >Goldstar</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.spathotels.com/"
+                  target="_blank"
+                  >Spat-Holon</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.osem-nestle.co.il/"
+                  target="_blank"
+                  >Osem</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div class="navbar-brand mx-5 d-none d-lg-block">
+              <h1 class="m-0 display-4 text-primary">
+                <span class="text-secondary"
+                  ><img
+                    class="LogoSize"
+                    src="https://upload.wikimedia.org/wikipedia/he/thumb/3/3c/Holon_Logo_2012.svg/2560px-Holon_Logo_2012.svg.png"
+                    alt="Holon-City-logo"
+                /></span>
+              </h1>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="./FAQ.html" class="nav-item nav-link">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a href="./media.html" class="nav-item nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-item nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section class="FontTitle carousel">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://as2.ftcdn.net/v2/jpg/03/17/51/05/1000_F_317510538_1EiGRbTxehu3lYBNjAYyUeqcJugOrZsj.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h4 class="text-light text-uppercase mb-md-3">
+                  Karnaval Purim 2023
+                </h4>
+                <h1 class="text-light text-uppercase mb-md-3">
+                  The best carnival in Israel
+                </h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://as1.ftcdn.net/v2/jpg/05/56/79/08/1000_F_556790825_rDkxR7NqR2C0u8IQICDiQrucj09HPArV.jpg"
+                class="brightness d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h4 class="text-light text-uppercase mb-md-3">
+                  Karnaval Purim 2023
+                </h4>
+                <h1 class="text-light text-uppercase mb-md-3">
+                  The best carnival in Israel
+                </h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://as1.ftcdn.net/v2/jpg/05/54/54/46/1000_F_554544695_XnVadmuNl2Xkry7g1lmcbl1kw7BfjPR5.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h4 class="text-light text-uppercase mb-md-3">
+                  Karnaval Purim 2023
+                </h4>
+                <h1 class="text-light text-uppercase mb-md-3">
+                  The best carnival in Israel
+                </h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://as2.ftcdn.net/v2/jpg/05/56/34/01/1000_F_556340149_gT9ED1oqg35r0mFtZV9O49txa34aW16l.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h4 class="text-light text-uppercase mb-md-3">
+                  Karnaval Purim 2023
+                </h4>
+                <h1 class="text-light text-uppercase mb-md-3">
+                  The best carnival in Israel
+                </h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://as1.ftcdn.net/v2/jpg/05/54/07/00/1000_F_554070057_C9LjVgoogYA3Sy5MT3ESVob9zfHizdm7.jpg"
+                class="brightness d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h4 class="text-light text-uppercase mb-md-3">
+                  Karnaval Purim 2023
+                </h4>
+                <h1 class="text-light text-uppercase mb-md-3">
+                  The best carnival in Israel
+                </h1>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <div class="mainPhoto">
+        <img
+          src="https://as1.ftcdn.net/v2/jpg/05/54/54/46/1000_F_554544695_XnVadmuNl2Xkry7g1lmcbl1kw7BfjPR5.jpg"
+          class="w-100"
+          alt="..."
+        />
+      </div>
+
+      <section class="Explanations">
+        <div class="container-fluid pt-5 pb-1">
+          <div class="container py-5">
+            <hr class="spanHrYellow" />
+            <div class="row justify-content-center">
+              <div class="col-lg-7">
+                <h1
+                  class="FontTitle section-title position-relative text-center my-3"
+                >
+                  Our City-Holon
+                </h1>
+              </div>
+            </div>
+            <div class="FontText row">
+              <div class="col-lg-4 py-5">
+                <h4 class="FontTitle font-weight-bold mb-3">Children's city</h4>
+
+                <p class="FontText">
+                  Holon Billing itself as a "children's city," Holon is home to
+                  the Holon Children's Museum and the Mediatheque youth.
+                  <br />Holon plays host each year to a street carnival in
+                  celebration of the Jewish holiday of Purim, the Adloyada.
+                  Thousands of children dress up in costumes and the streets
+                  close down for a parade featuring colorful floats. theater.
+                </p>
+                <a href="./about.html" class="btn btn-secondary mt-2"
+                  >For more</a
+                >
+              </div>
+              <div class="col-lg-5">
+                <div class="position-relative h-100 rounded overflow-hidden">
+                  <img
+                    class="position-absolute w-100 h-100"
+                    src="https://res.cloudinary.com/bizportal/image/upload/f_auto,q_auto/v1609665178/giflib/news/holon_09082022.png"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="container-fluid py-3">
+              <div class="container py-5">
+                <hr class="spanHrYellow" />
+                <div class="FontText row justify-content-center">
+                  <div class="col-lg-7">
+                    <h1
+                      class="FontTitle section-title position-relative text-center my-3"
+                    >
+                      Adloyada
+                    </h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div
+                      class="position-relative h-100 rounded overflow-hidden"
+                    >
+                      <img
+                        class="position-absolute w-100 h-100"
+                        src="https://www.ligdol.co.il/Upload/%D7%A4%D7%95%D7%A8%D7%99%D7%9D%20%D7%91%D7%A0%D7%AA%D7%A0%D7%99%D7%94.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-4 py-5">
+                    <h4 class="FontTitle font-weight-bold mb-3">
+                      "Until one no longer knows"
+                    </h4>
+
+                    <p class="FontText">
+                      Adloyada is a humorous procession held in Israel on the
+                      Jewish holiday of Purim.<br />The name is derived from the
+                      rabbinic saying in the Talmud that one should revel on
+                      Purim by drinking "until one no longer knows" the
+                      difference between "blessed be Mordecai" and "cursed be
+                      Haman".
+                    </p>
+                    <a href="./about.html" class="btn btn-secondary mt-2"
+                      >For more</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="Suppliers container p-0" id="SuppliersSection">
+        <hr class="spanHrYellow" />
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <h1
+              class="FontTitle section-title position-relative text-center my-3"
+            >
+              Suppliers
+            </h1>
+          </div>
+        </div>
+        <div class="SuppliersCards align-content-center">
+          <div class="row mt-4 justify-content-around">
+            <div class="col-3 d-flex justify-content-center">
+              <div class="card SuppliersCard text-center">
+                <a
+                  class="MeyEdem"
+                  href="https://www.meyeden.co.il/"
+                  target="_blank"
+                >
+                  <img
+                    src="https://play-lh.googleusercontent.com/scTm0ZooNiJSPn1sHz2mCZHXc2wd7CRrS2Ba2mb5T3Ffu1HOiqmIGEZPDUFRsqlHQMM"
+                    class="card-img-top text-center"
+                    alt="Mey-eden-logo"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-4 col-lg-3 d-flex justify-content-center">
+              <div class="card SuppliersCard">
+                <a
+                  class="Azriely"
+                  href="https://www.azrieli.com/?gclid=EAIaIQobChMImZ_98_3s_AIViflRCh02pAChEAAYASAAEgKCvPD_BwE"
+                  target="_blank"
+                >
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/he/thumb/5/5f/AzrieliGroup.svg/1200px-AzrieliGroup.svg.png"
+                    class="card-img-top text-center"
+                    alt="Azrieli-logo"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 col-lg-3 d-flex justify-content-center">
+              <div class="card SuppliersCard">
+                <a
+                  class="Burgeranch"
+                  href="https://app.burgeranch.co.il/?utm_term=burgeranch&utm_campaign=&utm_source=google&utm_medium=cpc&gclid=EAIaIQobChMI8bWKi_7s_AIVDN1RCh10aAo3EAAYASAAEgL9i_D_BwE"
+                  target="_blank"
+                >
+                  <img
+                    src="https://images.globes.co.il/Images/400x420/2019/746C556EC5C0AC4C558DBAC1133EF76D_400x420.20190711T163952.jpg"
+                    class="card-img-top text-center"
+                    alt="Burgarang-logo"
+                  />
+                </a>
+                <div class="card-body"></div>
+              </div>
+            </div>
+
+            <div class="col-4 col-lg-3 d-flex justify-content-center">
+              <div class="card SuppliersCard">
+                <a
+                  class="PizzaTarshish"
+                  href="https://easy.co.il/page/10052918"
+                  target="_blank"
+                >
+                  <img
+                    src="https://www.mypizza.co.il/wp-content/sabai/File/files/l_6011d3a4d75c6138fcad2e75cf4195ac.jpg"
+                    class="card-img-top text-center"
+                    alt="Pizza-tarshis-logo"
+                  />
+                </a>
+                <div class="card-body"></div>
+              </div>
+            </div>
+            <div class="col-4 col-lg-3 d-flex justify-content-center">
+              <div class="card SuppliersCard">
+                <a
+                  class="Goldstar"
+                  href="https://www.beershop.co.il/beers/%D7%9C%D7%94-%D7%98%D7%A8%D7%90%D7%A4%D7%94/goldstar-2/"
+                  target="_blank"
+                >
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/he/thumb/2/2a/%D7%92%D7%95%D7%9C%D7%93%D7%A1%D7%98%D7%90%D7%A8.svg/2560px-%D7%92%D7%95%D7%9C%D7%93%D7%A1%D7%98%D7%90%D7%A8.svg.png"
+                    class="card-img-top text-center"
+                    alt="Goldstar-logo"
+                  />
+                </a>
+                <div class="card-body"></div>
+              </div>
+            </div>
+
+            <div class="col-4 col-lg-3 d-flex justify-content-center">
+              <div class="card SuppliersCard">
+                <a
+                  class="SpatHotel"
+                  href="https://www.spathotels.com/"
+                  target="_blank"
+                >
+                  <img
+                    src="https://lirp.cdn-website.com/60018067/dms3rep/multi/opt/LogoSpatHotelFinal-01+%281%29-640w.png"
+                    class="card-img-top text-center"
+                    alt="Spat-Holon-logo"
+                  />
+                </a>
+                <div class="card-body"></div>
+              </div>
+            </div>
+            <div class="col-4 col-lg-3 d-flex justify-content-center">
+              <div class="card SuppliersCard">
+                <a
+                  class="Osem"
+                  href="https://www.osem-nestle.co.il/"
+                  target="_blank"
+                >
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/he/archive/2/22/20190907090742%21Osem_Logo.svg"
+                    class="card-img-top text-center"
+                    alt="Osem-logo"
+                  />
+                </a>
+                <div class="card-body"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-5">
+      <footer class="bg-light text-center text-white">
+        <div class="container p-4 pb-0">
+          <section class="mb-4">
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998"
+              href="#!"
+              role="button"
+              ><i class="bi bi-facebook"></i
+            ></a>
+
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee"
+              href="#!"
+              role="button"
+              ><i class="bi bi-twitter"></i
+            ></a>
+
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39"
+              href="#!"
+              role="button"
+              ><i class="bi bi-youtube"></i
+            ></a>
+
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac"
+              href="#!"
+              role="button"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </section>
+        </div>
+
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2023 Copyright:
+          <a class="text-white" href="">Liza-Projects.com</a>
+        </div>
+      </footer>
+    </footer>
+  </body>
+</html>
